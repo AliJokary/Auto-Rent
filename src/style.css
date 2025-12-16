@@ -1,1 +1,18 @@
 @import "tailwindcss";
+
+
+
+@font-face {
+    font-family: "Estedad VF";
+
+    src: url("../src/FontEstedadVF/Estedad\ VF.woff2")format("woff2") ;
+    src: url("./FontEstedadVF/Estedad\ VF.woff")format("woff"),
+    url("./FontEstedadVF/Estedad\ VF.ttf")format("ttf"),
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Estedad VF"
+}
+
