@@ -1,0 +1,66 @@
+{
+    "cars": [
+        {
+            "id": 1,
+            "title": "اجاره جنسیس کوپه",
+            "car": "Hyundai Genesis Coupe",
+            "model": 2014,
+            "dailyPrice": 8500000,
+            "monthlyPrice": 85000000,
+            "deposit": 80000000,
+            "image": "/img/genesis.jpg"
+        },
+        {
+            "id": 2,
+            "title": "اجاره تویوتا کمری",
+            "car": "Toyota Camry",
+            "model": 2020,
+            "dailyPrice": 9500000,
+            "monthlyPrice": 95000000,
+            "deposit": 85000000,
+            "image": "./public/img/1a08f90069908b366fd08e49a0f91b7eb3cec531 (1).jpg"
+        },
+        {
+            "id": 3,
+            "title": "اجاره کیا اپتیما",
+            "car": "Kia Optima",
+            "model": 2018,
+            "dailyPrice": 7800000,
+            "monthlyPrice": 78000000,
+            "deposit": 70000000,
+            "image": "/img/optima.jpg"
+        }
+    ],
+    "cars2": [
+        {
+            "id": 4,
+            "title": "اجاره جنسیس کوپه",
+            "car": "Hyundai Genesis Coupe",
+            "model": 2014,
+            "dailyPrice": 8500000,
+            "monthlyPrice": 85000000,
+            "deposit": 80000000,
+            "image": "/img/genesis.jpg"
+        },
+        {
+            "id": 5,
+            "title": "اجاره تویوتا کمری",
+            "car": "Toyota Camry",
+            "model": 2020,
+            "dailyPrice": 9500000,
+            "monthlyPrice": 95000000,
+            "deposit": 85000000,
+            "image": "./public/img/1a08f90069908b366fd08e49a0f91b7eb3cec531 (1).jpg"
+        },
+        {
+            "id": 6,
+            "title": "اجاره کیا اپتیما",
+            "car": "Kia Optima",
+            "model": 2018,
+            "dailyPrice": 7800000,
+            "monthlyPrice": 78000000,
+            "deposit": 70000000,
+            "image": "/img/optima.jpg"
+        }
+    ]
+}
