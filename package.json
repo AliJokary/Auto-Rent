@@ -7,9 +7,11 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "server": "json-server ./src/db.json"
+    "server": "json-server ./src/db.json",
+    "dev:all": "concurrently \"npm run dev\" \"json-server --watch ./db.json --port 3001\""
   },
   "devDependencies": {
+    "concurrently": "^9.2.1",
     "vite": "^7.2.4"
   },
   "dependencies": {
@@ -21,3 +23,6 @@
     "tailwindcss": "^4.1.18"
   }
 }
+
+
+
