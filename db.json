@@ -1,66 +1,52 @@
 {
   "cars": [
     {
-      "id": "1",
+      "id": 1,
+      "title": "اجاره بنز E۳۵۰ سدان",
+      "model": "۲۰۱۶",
+      "image": "/img/benz.png",
+      "offer": "۲۰%"
+    },
+    {
+      "id": 2,
+      "title": "اجاره تویوتا لندکروز در تهران ۲۰۱۳",
+      "model": "۲۰۱۶",
+      "image": "/img/Toyota Land Cruiser.png"
+    },
+
+    {
+      "id": 3,
       "title": "اجاره جنسیس کوپه",
-      "car": "Hyundai Genesis Coupe",
-      "model": 2014,
-      "dailyPrice": 1111,
-      "monthlyPrice": 1111,
-      "deposit": 11111,
-      "image": "/img/genesis.jpg"
-    },
-    {
-      "id": "2",
-      "title": "اجاره تویوتا کمری",
-      "car": "Toyota Camry",
-      "model": 2020,
-      "dailyPrice": 1123,
-      "monthlyPrice": 23123,
-      "deposit": 4124,
-      "image": "./public/img/1a08f90069908b366fd08e49a0f91b7eb3cec531 (1).jpg"
-    },
-    {
-      "id": "3",
-      "title": "اجاره کیا اپتیما",
-      "car": "Kia Optima",
-      "model": 2018,
-      "dailyPrice": 1111,
-      "monthlyPrice": 11111,
-      "deposit": 111111,
-      "image": "/img/optima.jpg"
+      "model": "۲۰۱۶",
+      "image": "/img/genesi.png",
+      "offer": "۲۰%"
     }
   ],
+
   "cars2": [
     {
-      "id": "4",
-      "title": "اجاره جنسیس کوپه",
-      "car": "Hyundai Genesis Coupe",
-      "model": 2014,
-      "dailyPrice": 8500000,
-      "monthlyPrice": 85000000,
-      "deposit": 80000000,
-      "image": "/img/genesis.jpg"
-    },
-    {
-      "id": "5",
-      "title": "اجاره تویوتا کمری",
-      "car": "Toyota Camry",
-      "model": 2020,
-      "dailyPrice": 9500000,
-      "monthlyPrice": 95000000,
-      "deposit": 85000000,
-      "image": "./public/img/1a08f90069908b366fd08e49a0f91b7eb3cec531 (1).jpg"
-    },
-    {
-      "id": "6",
-      "title": "اجاره کیا اپتیما",
-      "car": "Kia Optima",
-      "model": 2018,
-      "dailyPrice": 80000000,
-      "monthlyPrice": 600000000,
+      "id": 4,
+      "title": "اجاره بی ام و ۵۲۸",
+      "model": "۲۰۱۶",
+      "dailyPrice": 0,
+      "monthlyPrice": 0,
       "deposit": 0,
-      "image": "/img/optima.jpg"
+      "image": "/img/bmw.png"
+    },
+    {
+      "id": 5,
+      "title": "اجاره هیوندای توسان ۲۰۱۴",
+      "model": "۲۰۱۶",
+
+      "image": "/img/Hyundai Tucson.png",
+      "offer": "۲۰%"
+    },
+    {
+      "id": 6,
+      "title": "مازراتی گرن کابریو MC ۲۰۱۳",
+      "model": "۲۰۱۶",
+
+      "image": "/img/Maserati GranCabrio.png"
     }
   ]
 }
