@@ -1,31 +1,35 @@
 {
   "cars": [
     {
-      "id": 1,
+      "id": "1",
       "title": "اجاره بنز E۳۵۰ سدان",
       "model": "۲۰۱۶",
       "image": "/img/benz.png",
-      "offer": "۲۰%"
+      "offer": "۲۰%",
+      "dailyPrice": 1231,
+      "monthlyPrice": 3123123213
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "اجاره تویوتا لندکروز در تهران ۲۰۱۳",
       "model": "۲۰۱۶",
-      "image": "/img/Toyota Land Cruiser.png"
+      "image": "/img/Toyota Land Cruiser.png",
+      "dailyPrice": 12421414,
+      "monthlyPrice": 124241124
     },
-
     {
-      "id": 3,
+      "id": "3",
       "title": "اجاره جنسیس کوپه",
       "model": "۲۰۱۶",
       "image": "/img/genesi.png",
-      "offer": "۲۰%"
+      "offer": "۲۰%",
+      "dailyPrice": 234141241,
+      "monthlyPrice": 214124124214
     }
   ],
-
   "cars2": [
     {
-      "id": 4,
+      "id": "4",
       "title": "اجاره بی ام و ۵۲۸",
       "model": "۲۰۱۶",
       "dailyPrice": 0,
@@ -34,18 +38,16 @@
       "image": "/img/bmw.png"
     },
     {
-      "id": 5,
+      "id": "5",
       "title": "اجاره هیوندای توسان ۲۰۱۴",
       "model": "۲۰۱۶",
-
       "image": "/img/Hyundai Tucson.png",
       "offer": "۲۰%"
     },
     {
-      "id": 6,
+      "id": "6",
       "title": "مازراتی گرن کابریو MC ۲۰۱۳",
       "model": "۲۰۱۶",
-
       "image": "/img/Maserati GranCabrio.png"
     }
   ]
