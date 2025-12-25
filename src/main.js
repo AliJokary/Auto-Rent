@@ -129,7 +129,7 @@ document.addEventListener("click", (e) => {
     })
     .catch((err) => console.error("خطا:", err));
 });
-// FAQ Accordion
+
 document.querySelectorAll(".faq-item").forEach(item => {
   const question = item.querySelector(".faq-question");
   const answer = item.querySelector(".faq-answer");
@@ -155,8 +155,6 @@ document.querySelectorAll(".faq-item").forEach(item => {
   });
 });
 
-
-// Review Switch
 const users = document.querySelectorAll(".review-users span");
 const cards = document.querySelectorAll(".review-card");
 
