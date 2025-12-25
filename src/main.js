@@ -129,3 +129,47 @@ document.addEventListener("click", (e) => {
     })
     .catch((err) => console.error("خطا:", err));
 });
+// FAQ Accordion
+document.querySelectorAll(".faq-item").forEach(item => {
+  const question = item.querySelector(".faq-question");
+  const answer = item.querySelector(".faq-answer");
+  const icon = item.querySelector("i");
+
+  if (item.classList.contains("active")) {
+    answer.style.maxHeight = answer.scrollHeight + "px";
+    icon.textContent = "-";
+  }
+
+  question.addEventListener("click", () => {
+    item.classList.toggle("active");
+
+    if (item.classList.contains("active")) {
+      answer.style.maxHeight = answer.scrollHeight + "px";
+      icon.textContent = "-";
+      icon.classList.replace("text-gray-400", "text-yellow-400");
+    } else {
+      answer.style.maxHeight = null;
+      icon.textContent = "+";
+      icon.classList.replace("text-yellow-400", "text-gray-400");
+    }
+  });
+});
+
+
+// Review Switch
+const users = document.querySelectorAll(".review-users span");
+const cards = document.querySelectorAll(".review-card");
+
+users.forEach(user => {
+  user.addEventListener("click", () => {
+    users.forEach(u => u.classList.remove("active", "bg-yellow-400", "text-white"));
+    user.classList.add("active", "bg-yellow-400", "text-white");
+
+    const name = user.dataset.user;
+
+    cards.forEach(card => {
+      card.classList.toggle("hidden", card.dataset.user !== name);
+      card.classList.toggle("active", card.dataset.user === name);
+    });
+  });
+});
