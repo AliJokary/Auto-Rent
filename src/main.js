@@ -171,3 +171,58 @@ users.forEach(user => {
     });
   });
 });
+
+
+  const buttons = document.querySelectorAll(".accordion-btn");
+
+buttons.forEach(btn => {
+  const bodyId = btn.getAttribute("data-accordion-target");
+  const body = document.querySelector(bodyId);
+  const icon = btn.querySelector(".accordion-icon");
+  const line2 = icon.querySelector(".line2"); // خط عمودی (+)
+
+  btn.addEventListener("click", () => {
+    const isHidden = body.classList.contains("hidden");
+
+    if (isHidden) {
+      // باز شدن نرم
+      body.classList.remove("hidden");
+      body.style.maxHeight = body.scrollHeight + "px";
+      body.classList.remove("opacity-0");
+      body.classList.add("opacity-100");
+
+      // آیکن منفی
+      line2.style.display = "none";
+
+      // حذف بردر پایین (نسخه تضمینی)
+      btn.classList.remove("border-b");
+      btn.style.borderBottomWidth = "0px";
+
+    } else {
+      // بسته شدن نرم
+      body.style.maxHeight = body.scrollHeight + "px";
+      setTimeout(() => {
+        body.style.maxHeight = "0px";
+        body.classList.add("opacity-0");
+        body.classList.remove("opacity-100");
+      }, 10);
+
+      setTimeout(() => {
+        body.classList.add("hidden");
+      }, 300);
+
+      // آیکن مثبت
+      line2.style.display = "block";
+
+      // برگشت بردر پایین (نسخه تضمینی)
+      btn.classList.add("border-b");
+      btn.style.borderBottomWidth = "1px";
+    }
+  });
+});
+
+
+
+
+
+
